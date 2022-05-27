@@ -12,10 +12,14 @@ Welcome to Code Signs! Provide your name and birthday to learn a little more abo
 
 ### Riki Plaza
 
-![Domain Image](img/Domain.jpeg)
+## User Stories
 
-![Domain](img/wire-frame1.jpg)
+1. As a user, I want to recieve my horoscope, so that I learn more about myself. 
 
-![Domain Image](img/wire-frame2.jpg)
+2. As a user, I want to compare my sign against others, so that I can recieve our compatibility.
 
-![Domain Image](img/wire-frame3.jpg)
+3. As a user, I want to have access to all previously generated horoscopes, so that I may view other's atrology signs. 
+
+4. As a user, I want to have access to any and all horoscopes, so that I may see the signs of others. 
+
+5. As a user, I want to be able to input my birthday, so that I may receive my horoscope. 
