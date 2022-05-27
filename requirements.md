@@ -35,4 +35,3 @@ Our product provides accurate and up to date astrological information based on t
 # Stretch Goal
 
 - Compatibility quiz
-
