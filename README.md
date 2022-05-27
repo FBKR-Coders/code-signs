@@ -32,5 +32,5 @@ Welcome to Code Signs! Provide your name and birthday to learn a little more abo
 
 ![Domain Image](img/wire-frame3.jpg)
 
-![Domain Image](img/Wire frame page 4.jpg)
+![Domain Image](img/wire-frame4.jpg)
 
