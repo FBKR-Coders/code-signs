@@ -26,8 +26,11 @@ Welcome to Code Signs! Provide your name and birthday to learn a little more abo
 
 ![Domain Image](img/Domain.jpeg)
 
-![Domain](img/wire-frame1.jpg)
+![Domain Image](img/wire-frame1.jpg)
 
 ![Domain Image](img/wire-frame2.jpg)
 
 ![Domain Image](img/wire-frame3.jpg)
+
+![Domain Image](img/Wire frame page 4.jpg)
+
