@@ -23,3 +23,11 @@ Welcome to Code Signs! Provide your name and birthday to learn a little more abo
 4. As a user, I want to have access to any and all horoscopes, so that I may see the signs of others. 
 
 5. As a user, I want to be able to input my birthday, so that I may receive my horoscope. 
+
+![Domain Image](img/Domain.jpeg)
+
+![Domain Image](img/wire-frame1.jpg)
+
+![Domain Image](img/wire-frame2.jpg)
+
+![Domain Image](img/wire-frame3.jpg)
