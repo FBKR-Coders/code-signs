@@ -5,6 +5,7 @@ let userDayHomepage = document.getElementById('userDayHomepage');
 let userMonthHomepage = document.getElementById('userMonthHomepage');
 let userHoroscopeHomepage = document.getElementById('userHoroscopeHomepage');
 let userImageHomepage = document.getElementById('userImageHomepage');
+let userDescriptionHomepage = document.getElementById('userDescriptionHomepage');
 
 let userHoroscopes;
 
@@ -23,5 +24,6 @@ userDayHomepage.textContent = currentHoroscope.day;
 userMonthHomepage.textContent = currentHoroscope.month;
 userHoroscopeHomepage.textContent = currentHoroscope.horoscope;
 userImageHomepage.src = currentHoroscope.image;
+userDescriptionHomepage.textContent = currentHoroscope.description;
 
 // .textContent = '';
