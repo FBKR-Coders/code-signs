@@ -11,10 +11,10 @@
 
 </head>
 <body>
-  <header>  
+  <header>
 
     <!-- HEADER IMAGE GOES HERE -->
-    <img src="url.jpg" alt="#" width="" height="">
+    <img src="img/logo2.png" alt="logo" width="300" height="">
     <h1>Code Signs</h1>
 
   </header>
@@ -23,33 +23,28 @@
     <h2>Welcome! Enter your information below and get matched!</h2>
 
     <section>
-      <form id="userInput">  
+      <form id="userInput">
         <fieldset>
-          <legend>newHoroscope</legend>
-          <label for = "newName">name </label>
-          <input id = "newName" type="text" name="newName">
+          <legend>New Horoscope</legend>
+          <label for = "newName">Name</label>
+          <input id = "newName" type="text" name="newName" placeholder="John Smith">
 
-          <label for = "newDay"> day </label>
-          <input id = "newDay" type="number" name="newDay">
-          
-          <label for = "newMonth"> month</label>
-          <input id = "newMonth" type="text" name="newMonth">
-        
-        <button type="submit">submit</button>
-        </fieldset> 
+          <label for = "newDay"> Day</label>
+          <input id = "newDay" type="number" name="newDay" placeholder="28">
+
+          <label for = "newMonth"> Month</label>
+          <input id = "newMonth" type="text" name="newMonth" placeholder="May">
+
+        <button id="changePage" type="submit">submit</button>
+        </fieldset>
       </form>
-      
-      
 
       <!-- INPUT YOUR NAME AND BIRTHDAY FOR LOCAL STORAGE LATER -->
-     
-
-      
 
     </section>
   </main>
 
   <script src="js/app.js"></script>
-  
+
 </body>
 </html>

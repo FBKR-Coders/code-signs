@@ -2,7 +2,7 @@
 
 //Form
 
-// Global var
+// Global var & DOM Reference
 let userInput = document.getElementById('userInput');
 let userHoroscopes;
 
@@ -13,10 +13,9 @@ if (localStorageData === null) {
   userHoroscopes = JSON.parse(localStorageData);
   console.log(userHoroscopes);
 }
-// DOM Reference
 
 // Constructor
-function horoscope(name, day, month) {
+function Horoscope(name, day, month) {
   this.name = name;
   this.month = month;
   this.horoscope = '';
@@ -27,10 +26,10 @@ function horoscope(name, day, month) {
 
 //notes
 //recieve user input/name/date/month
-//initate zodiac sign functino, with input to assign
+//initate zodiac sign function, with input to assign
 //
 
-horoscope.prototype.generatedHoroscope = function (day, month) {
+Horoscope.prototype.generatedHoroscope = function (day, month) {
   // checks month and date within the
   // valid range of a specified zodiac
   if (month === 'december') {
@@ -79,16 +78,14 @@ let retrievedHoroscopes = localStorage.getItem('horoscope');
 let parsedHoroscopes = JSON.parse(retrievedHoroscopes);
 console.log(parsedHoroscopes);
 
-//Helper Function/ executable code
-
 // Event handlers
 function handleSubmit(event) {
   event.preventDefault();
   let newName = event.target.newName.value;
   let newDay = +event.target.newDay.value;
-  let newMonth = event.target.newMonth.value;
+  let newMonth = event.target.newMonth.value.toLowerCase();
 
-  let newHoroscope = new horoscope(newName, newDay, newMonth);
+  let newHoroscope = new Horoscope(newName, newDay, newMonth);
 
   newHoroscope.generatedHoroscope(newDay, newMonth);
 
@@ -99,7 +96,9 @@ function handleSubmit(event) {
   localStorage.setItem('horoscope', stringifiedHoroscope);
 }
 
-//Local Storage Begins
+document.getElementById('changePage').onclick = function () {
+  location.href = '/Homepage.html';
+};
 
 // Event Listeners
 
