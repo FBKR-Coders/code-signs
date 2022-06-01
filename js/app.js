@@ -2,7 +2,7 @@
 
 //Form
 
-// Global var & DOM Reference
+// ********** GLOBAL VARIABLE & DOM REFERENCES **********
 let userInput = document.getElementById('userInput');
 
 let localStorageData = localStorage.getItem('horoscope');
@@ -13,7 +13,7 @@ if (localStorageData === null) {
   console.log(Horoscope.userHoroscopes);
 }
 
-// Constructor
+// ********** CONSTRUCTOR **********
 function Horoscope(name, day, month) {
   this.name = name;
   this.month = month;
@@ -25,17 +25,20 @@ function Horoscope(name, day, month) {
   Horoscope.userHoroscopes.push(this);
 }
 
-// NOTE: this is wrong because it erases the array loaded from localStorage
+// NOTE:
+// This is wrong because it erases the array loaded from localStorage.
 // Horoscope.userHoroscopes = [];
 
-//notes
-//recieve user input/name/date/month
-//initate zodiac sign function, with input to assign
-//
+// NOTES:
+// Recieve user input/name/date/month.
+// Initate zodiac sign function, with input to assign.
 
 Horoscope.prototype.generatedHoroscope = function (day, month) {
-  // checks month and date within the
-  // valid range of a specified zodiac
+
+  // NOTES:
+  // Checks month and date within the.
+  // Valid range of a specified zodiac.
+
   if (month === 'december') {
     if (day < 22) this.horoscope = 'sagitarius';
     else this.horoscope = 'capricorn';
@@ -74,7 +77,8 @@ Horoscope.prototype.generatedHoroscope = function (day, month) {
     else this.horoscope = 'sagitarius';
   }
 
-  // add horoscope image to object
+  // Adds horoscope image to object
+
   this.image = `img/${this.horoscope}.jpg`;
 
   if(this.horoscope === 'sagitarius') {
@@ -117,7 +121,7 @@ Horoscope.prototype.generatedHoroscope = function (day, month) {
 
 // https://codingshiksha.com/javascript/javascript-program-to-display-astrological-sign-or-zodiac-sign-for-given-date-of-birth-in-html5-full-project-for-beginners/
 
-// Event handlers
+// ********** EVENT HANDLERS **********
 
 function handleSubmit(event) {
   event.preventDefault();
@@ -130,6 +134,7 @@ function handleSubmit(event) {
   newHoroscope.generatedHoroscope(newDay, newMonth);
 
   userInput.reset();
+
   // console.log(Horoscope.userHoroscopes, newHoroscope);
 
   let stringifiedHoroscope = JSON.stringify(Horoscope.userHoroscopes);
@@ -141,5 +146,5 @@ document.getElementById('changePage').onclick = function () {
   location.href = '/homepage.html';
 };
 
-// Event Listeners
+// ********** EVENT LISTENERS **********
 userInput.addEventListener('submit', handleSubmit);
