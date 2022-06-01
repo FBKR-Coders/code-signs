@@ -82,6 +82,7 @@ console.log(parsedHoroscopes);
 //Helper Function/ executable code
 
 // Event handlers
+
 function handleSubmit(event) {
   event.preventDefault();
   let newName = event.target.newName.value;
