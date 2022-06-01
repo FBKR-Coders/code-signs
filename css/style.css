@@ -153,3 +153,9 @@ h4 {
   color: white;
 }
 
+/* Where the Hompage styling begins  */
+
+body {
+  width: 100%;
+  margin: 0;
+}
