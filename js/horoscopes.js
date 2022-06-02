@@ -37,6 +37,9 @@ for (let i = 0; i < userHoroscopes.length; i++) {
   let listItem5 = document.createElement('li');
   list.appendChild(listItem5);
 
+  let listItem6 = document.createElement('li');
+  list.appendChild(listItem6);
+
   image.src = userHoroscopes[i].image;
 
   listItem1.textContent = userHoroscopes[i].name;
@@ -44,28 +47,5 @@ for (let i = 0; i < userHoroscopes.length; i++) {
   listItem3.textContent = userHoroscopes[i].month;
   listItem4.textContent = userHoroscopes[i].horoscope;
   listItem5.textContent = userHoroscopes[i].description;
+  listItem6.textContent = userHoroscopes[i].compatibility;
 }
-
-/*
-// get window into <main> element
-for (let i = 0; i < userHoroscopes.length; i++) {
-  // create html...
-  // ensure textContent is set from userHoroscopes[i]
-}
-Create and add the following HTML:
-    <section class="prevhoroscopes">
-      <img class="">
-     <ul>
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
-     </ul>
-     <article>
-       <p></p>
-       <p class=""></p>
-     </article>
-      <!--Generated Astrology sign card-->
-     <img class="" src="">
-    </section>
-*/
