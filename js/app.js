@@ -21,6 +21,7 @@ function Horoscope(name, day, month) {
   this.day = day;
   this.image = null;
   this.description = '';
+  this.compatibility = '';
 
   Horoscope.userHoroscopes.push(this);
 }
@@ -116,6 +117,19 @@ Horoscope.prototype.generatedHoroscope = function (day, month) {
 
   } else if(this.horoscope === 'scorpio') {
     this.description = '(October 23 - November 21) Water sign, passion and power, clairvoyant and intuitive, know what they want and aren\'t afraid to work hard and play the long game to get it, ambitious and enticing.'; }
+
+  if(['aries', 'leo', 'sagitarius'].includes(this.horoscope)){
+    this.compatibility = 'Element: fire';
+  }
+  if(['taurus', 'virgo', 'capricorn'].includes(this.horoscope)){
+    this.compatibility = 'Element: earth';
+  }
+  if(['gemini', 'libra', 'aquarius'].includes(this.horoscope)){
+    this.compatibility = 'Element: air';
+  }
+  if(['cancer', 'pisces', 'scorpio'].includes(this.horoscope)){
+    this.compatibility = 'Element: water';
+  }
 };
 
 
