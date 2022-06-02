@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="css/comp.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <title>Code Signs</title>
 </head>
 <body>
   <header class="compHead">
     <img class="logoComp" src="img/logo2.png" alt="logo" width="300" height="">
-    <nav>
-      <ul>
-        <li><a href="/index.html">Return To Page</a></li>
-        <li><a href="/Homepage.html">Homepage</a></li>
-        <li><a href="/horoscopes.html">Horoscopes</a></li>
+    <nav class="compNav">
+      <ul class="compUl">
+        <li class="compList"><a href="/index.html">Return</a></li>
+        <li class="compList"><a href="/Homepage.html">Homepage</a></li>
+        <li class="compList"><a href="/horoscopes.html">Horoscopes</a></li>
       </ul>
     </nav>
-     <h1 class="matchpage">Find Your Compatibility Match!</h1>
   </header>
   <main id="compatibilityMain">
-    <h2 class="headertwo">See if you're compatible with any previously generated horoscopes!</h2>
-    <img id="userImageComp" src="">
-    <ul>
-      <li id="userNameComp" class="info"></li>
-      <li id="userDayComp" class="info"></li>
-      <li id="userMonthComp" class="info"></li>
-      <li id="userHoroscopeComp" class="info"></li>
-      <li id="userDescriptionComp" class="info"></li>
-      <li id="userCompatibilityComp" class="info"></li>
-    </ul>
+    <div class="banner3">
+      <h3 class="h3Comp">See if you're compatible with any previously generated horoscopes!</h3>
+    </div>
+    <section class="sectionPage3">
+      <h3 class="signH3">Your Sign</h3>
+      <img class="signImg2" id="userImageComp" src="">
+      <ul class="bulletList2">
+        <li id="userNameComp" class="info"></li>
+        <li id="userDayComp" class="info"></li>
+        <li id="userMonthComp" class="info"></li>
+        <li id="userHoroscopeComp" class="info"></li>
+        <li id="userDescriptionComp" class="info"></li>
+        <li id="userCompatibilityComp" class="info"></li>
+      </ul>
+    </section>
+    <div id="matchList" class="matches">
+    </div>
   </main>
   <script src="js/compatibility.js"></script>
 </body>
