@@ -24,7 +24,6 @@ main {
   margin-top: -50px;
   margin-left: 20px;
   float: left;
-
 }
 
 .heading1 {
@@ -32,8 +31,6 @@ main {
   color: white;
   font-size: 90px;
   font-family: 'Dancing Script', cursive; 
-  
-
 }
 
 .banner {
@@ -153,9 +150,124 @@ h4 {
   color: white;
 }
 
-/* Where the Hompage styling begins  */
 
-body {
+/* Homepage.html styling starts */
+
+.headerpg2 {
   width: 100%;
-  margin: 0;
+  height: 150px;
+  background-color: #C197D2;
+  margin-bottom: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 300px;
+  float: left;
+}
+
+nav {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: -35px;
+}
+
+nav ul li {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  color: white; 
+  padding: 10px;
+  text-decoration: none;
+  font-family:'Dancing Script', cursive;
+  font-size: 30px;
+  
+}
+
+a:hover{
+  border: 2px solid white;
+}
+
+.banner2 {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color:  #FB6B90;
+}
+
+.paragraphb {
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.sectionpg2 {
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #613659;
+  box-shadow: 5px 10px 18px #383737;
+}
+
+h3 {
+  text-align: center;
+  color: rgba(255,255,255, 0.6);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 1000;
+}
+
+.signimg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.paragraph {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 15px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+}
+
+.bulletlist {
+ text-align: center;
+ margin-left: -30px;
+ list-style: none;
+ color: white;
 }
