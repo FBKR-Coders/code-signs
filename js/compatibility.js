@@ -1,6 +1,7 @@
 'use strict';
 
 let userHoroscopes;
+let compatibilityMain = document.getElementById('compatibilityMain');
 let matchList = document.getElementById('matchList');
 let userNameComp = document.getElementById('userNameComp');
 let userDayComp = document.getElementById('userDayComp');
@@ -47,7 +48,7 @@ for (let i = 0; i < userHoroscopes.length; i++) {
     article.appendChild(image);
 
     let list = document.createElement('ul');
-    list.className = 'ulJS'
+    list.className = 'ulJS';
     article.appendChild(list);
 
     let listItem1 = document.createElement('li');
