@@ -1,0 +1,535 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  overflow: hidden;
+  padding-bottom: 300px;
+}
+
+
+.headerpg1 {
+  background-color: #C197D2;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 20px;
+  float: left;
+}
+
+.heading1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 90px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color:  #FB6B90;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  font-size: 17px;
+}
+
+legend {
+  text-align: center;
+}
+
+fieldset {
+  height: 300px;
+  width: 360px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  background-color: #211522;
+  border: none;
+  padding: 20px;
+  box-shadow:  5px 10px 18px #383737;
+}
+
+.form {
+  width: 100%;
+  padding: 13px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+label {
+  color: white;
+}
+
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: none;
+  background-color: #FB4570;
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  color: white;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow:  5px 10px 20px whitesmoke;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 25px;
+
+}
+
+h4 {
+  text-align: center;
+  margin-top: 40px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.fa {
+  padding: 25px;
+  font-size: 5.5rem;
+  width: 30px;
+  text-decoration: none;
+  text-align: center;
+  margin: 3px 8px;
+  border-radius: 10px ;
+}
+
+.fa:hover {
+  background-color: #FB4570;
+
+}
+
+.fa-facebook {
+  background-color: #613659;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background-color: #613659;
+  color: white;
+}
+
+.fa-instagram {
+  background-color: #613659;
+  color: white;
+}
+
+
+/* Homepage.html styling starts */
+
+.headerpg2 {
+  width: 100%;
+  height: 150px;
+  background-color: #C197D2;
+  margin-bottom: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logo2 {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 300px;
+  float: left;
+}
+
+nav {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: -35px;
+}
+
+nav ul li {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family:'Dancing Script', cursive;
+  font-size: 30px;
+
+}
+
+a:hover{
+  border: 2px solid white;
+}
+
+.banner2 {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color:  #FB6B90;
+}
+
+.paragraphb {
+  text-align: center;
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.sectionpg2 {
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 55px 20px;
+  background-color: #613659;
+  box-shadow: 5px 10px 18px #383737;
+}
+
+.signlist {
+  margin-top: 5px;
+  font-size: 19px;
+  font-family:'Open Sans', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: rgba(255,255,255, 0.6);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 1000;
+}
+
+.signimg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.paragraph {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 15px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+
+}
+
+.bulletlist {
+ text-align: center;
+ margin-left: -30px;
+ list-style: none;
+ color: white;
+}
+
+/* CSS for Compatibility Page starts */
+
+.compHead {
+  width: 100%;
+  height: 150px;
+  background-color: #C197D2;
+  margin-bottom: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logoComp {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 300px;
+  float: left;
+}
+
+.compNav {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.compNav .compUl {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: -35px;
+}
+
+.compNav .compUl .compList {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family:'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.banner3 {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color:  #FB6B90;
+}
+
+.h3Comp {
+  text-align: center;
+  color: rgba(255,255,255, 0.6);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 1000;
+}
+
+.sectionPage3 {
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 55px 20px;
+  background-color: #613659;
+  box-shadow: 5px 10px 18px #383737;
+}
+
+.signH3 {
+  text-align: center;
+  color: rgba(255,255,255, 0.6);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+  font-weight: 1000;
+}
+
+.signImg2 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -40px;
+}
+
+.bulletList2 {
+  text-align: center;
+  margin-left: -30px;
+  list-style: none;
+  color: white;
+}
+
+.info {
+  margin-top: 5px;
+  font-size: 19px;
+  font-family:'Open Sans', sans-serif;
+}
+
+/* Begin Horoscopes CSS */
+
+
+.horoscopeHead {
+  width: 100%;
+  height: 150px;
+  background-color: #C197D2;
+  margin-bottom: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.logo4 {
+  width: 300px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 300px;
+  float: left;
+}
+
+.nav4 {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav4 .list4 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: -35px;
+}
+
+.nav4 .list4 .horoscopeList {
+  margin-top: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family:'Dancing Script', cursive;
+  font-size: 30px;
+}
+
+.banner4 {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  background-color:  #FB6B90;
+}
+
+.h3Horoscope {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 1000;
+}
+
+/* JS CSS starts here */
+
+.sectionJS {
+  width: 300px;
+  height: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 70px 20px;
+  background-color: #FB6B90;
+  box-shadow: 5px 10px 18px #383737;
+}
+
+.matches {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.h3JS {
+  text-align: center;
+  color: rgba(255,255,255, 0.6);
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-top: 55px;
+  font-weight: 1000;
+}
+
+.imgJS {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: -40px;
+}
+
+.ulJS {
+  text-align: center;
+  margin-left: -30px;
+  list-style: none;
+  color: white;
+}
+
+.infoJS {
+  margin-top: 5px;
+  font-size: 19px;
+  font-family:'Open Sans', sans-serif;
+}
+
+/* Horoscope JS CSS starts */
+
+.horoscopeMain {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.articleJS {
+  width: 300px;
+  height: 600px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px 55px 20px;
+  background-color: #613659;
+  box-shadow: 5px 10px 18px #383737;
+}
+
+.h3Comp {
+  color: rgba(0, 0, 0, 0.5);
+}
