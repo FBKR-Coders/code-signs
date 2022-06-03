@@ -159,7 +159,7 @@ function handleSubmit(event) {
 }
 
 document.getElementById('changePage').onclick = function () {
-  location.href = '/homepage.html';
+  location.href = 'homepage.html';
 };
 
 // ********** EVENT LISTENERS **********
