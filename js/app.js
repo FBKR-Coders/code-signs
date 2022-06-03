@@ -3,6 +3,7 @@
 //Form
 
 // ********** GLOBAL VARIABLE & DOM REFERENCES **********
+
 let userInput = document.getElementById('userInput');
 
 let localStorageData = localStorage.getItem('horoscope');
@@ -14,6 +15,7 @@ if (localStorageData === null) {
 }
 
 // ********** CONSTRUCTOR **********
+
 function Horoscope(name, day, month) {
   this.name = name;
   this.month = month;
@@ -83,40 +85,40 @@ Horoscope.prototype.generatedHoroscope = function (day, month) {
   this.image = `img/${this.horoscope}.jpg`;
 
   if(this.horoscope === 'sagitarius') {
-    this.description = '(November 22 - December 21), fire sign, brazen spirit, dynamic blend of passion, curiosity, intensity, and adaptability, desire for change, Fueled by wanderlust, perpetual quest for knowledge, bluntness, and their "brutal honesty".';
+    this.description = '(November 22 - December 21) Brazen spirit, dynamic blend of passion, curiosity, intensity, and adaptability, desire for change, Fueled by wanderlust, perpetual quest for knowledge, bluntness, and their "brutal honesty". Optimistic and open minded. Nearly 1 in 5 child stars are Sagitarius.';
 
   } else if(this.horoscope === 'capricorn') {
-    this.description = '(December 22 - January 19) This earth sign is often misunderstood, and brutally honest. They don\'t jump on bandwagons and are independent.';
+    this.description = '(December 22 - January 19) This sign is often misunderstood, and brutally honest. They don\'t jump on bandwagons and are independent. They tend to carry heavy burdons because they are so willing to support others through their difficulties. Often the rock in their relationships, which can tear them down.';
 
   } else if(this.horoscope === 'aquarius') {
-    this.description = '(January 20 - February 18)  Is an Air sign, hates small talk, petty gossip. Every Aquarian is a rebel at heart, but also community focused.';
+    this.description = '(January 20 - February 18)  They hates small talk, petty gossip. Every Aquarian is a rebel at heart, but also community focused. Visionary of the zodiacs. They love to dream about alternate realities to create new worlds, but tend to maket he LEAST amount of money.';
 
   } else if(this.horoscope === 'pisces') {
-    this.description = '(February 19 - March 20) Pisces are a water element. Pisces is the 12th and the last Sign of the Zodiac. It is known that Pisces somehow, thus, takes ups the different attributes of all the other 11 Signs. The dreamy and romantic Sign is known for its charming creative side, which, to some, is like free flowing poetry.';
+    this.description = '(February 19 - March 20) Pisces is the 12th and the last Sign of the Zodiac. It is known that Pisces somehow, thus, takes ups the different attributes of all the other 11 Signs. The dreamy and romantic Sign is known for its charming creative side, which, to some, is like free flowing poetry.';
 
   } else if(this.horoscope === 'aries') {
-    this.description = '(March 21 - April 19) This fire sign loves to be numero uno. Passionate, and motivated. They also tend to jump before thinking leading to hard lessons.';
+    this.description = '(March 21 - April 19) Born with a sense of entitlement which helps them achieve great things; which can also be off-putting. More likey than the other signs to suffer an injury to the head or face. Passionate, and motivated. They also tend to jump before thinking leading to hard lessons.';
 
   } else if(this.horoscope === 'taurus') {
-    this.description = '(April 20 - May 20) Earth sign, ambitious, focused, and resilient, loyal, prioritize consistency and reliability, stubborn';
+    this.description = '(April 20 - May 20) Ambitious, focused, and resilient, loyal, prioritize consistency and reliability, stubborn. Likes to steady things; making sure they and the people around them are secure. They are the "do-ers"; the ones who arrange the travel and make all of the reservations for a vacation.';
 
   } else if(this.horoscope === 'gemini') {
-    this.description = '(May 21 - June 20) Gemini is an air element. Gemini is represented by the twins, Castor and Pollux. Gemini is the third sign of the zodiac circle and rules the third house. The sign is all about thinking fast, communicating effectively and is full of ideas.';
+    this.description = '(May 21 - June 20) Gemini is represented by the twins, Castor and Pollux. Gemini is the third sign of the zodiac circle and rules the third house. The sign is all about thinking fast, communicating effectively and is full of ideas. More likely than any other sign to win a nobel prize!';
 
   } else if(this.horoscope === 'cancer') {
-    this.description = '(June 21 - July 22) This water sign is known seem cold and distant but only until you get to know them and see their gentle nature.  Are sensitive to vibes in a room, and are loyal friends.';
+    this.description = '(June 21 - July 22) This sign is known to seem cold and distant but only until you get to know them and see their gentle nature.  Are sensitive to vibes in a room, and are loyal friends. Pay attention to your dreams around the time of a full moon. They are usually telling you something.';
 
   } else if(this.horoscope === 'leo') {
-    this.description = '(July 23 - August 22) Leos are of the fire element. Leo is the fifth sign and it is the central sign of the fiery triplicity of the zodiac circle. The sign is ruled by a proud and fierce lion. The energy of the sign is expressive and flamboyant in nature.';
+    this.description = '(July 23 - August 22) Leo is the fifth sign and it is the central sign of the fiery triplicity of the zodiac circle. They are twice as likely to go to the gym. The sign is ruled by a proud and fierce lion. The energy of the sign is expressive and flamboyant in nature. They tend to have an amazing head of hair.';
 
   } else if(this.horoscope === 'virgo') {
-    this.description = '(August 23 - September 22) Earth sign, Virgos are logical, practical, and systematic in their approach to life. This earth sign is a perfectionist at heart and isn\'t afraid to improve skills through diligent and consistent practice. ';
+    this.description = '(August 23 - September 22) The most common birthday falls under this sign.Virgos are logical, practical, and systematic in their approach to life. This earth sign is a perfectionist at heart and isn\'t afraid to improve skills through diligent and consistent practice. More flexible and comfortable with change.';
 
   } else if(this.horoscope === 'libra') {
-    this.description = '(September 23 - October 22) Libras are of the air element. Libra is the seventh sign and the only inanimate sign of the zodiac. The sign epitomizes balance and fairness. The sign restores equilibrium to all affairs, no matter how big or small it is. The energy of the sign settles a major and ethical conflict.';
+    this.description = '(September 23 - October 22) Libra is the seventh sign and the only inanimate sign of the zodiac. The sign epitomizes balance and fairness. The sign restores equilibrium to all affairs, no matter how big or small it is. The energy of the sign settles a major and ethical conflict.';
 
   } else if(this.horoscope === 'scorpio') {
-    this.description = '(October 23 - November 21) Water sign, passion and power, clairvoyant and intuitive, know what they want and aren\'t afraid to work hard and play the long game to get it, ambitious and enticing.'; }
+    this.description = '(October 23 - November 21) Easily overlooked, Passion and power, clairvoyant and intuitive, know what they want and aren\'t afraid to work hard and play the long game to get it, ambitious and enticing. They tend to have hynotic, piercing eyes. You\'ll likely fall hard and deeply in love with them.'; }
 
   if(['aries', 'leo', 'sagitarius'].includes(this.horoscope)){
     this.compatibility = 'Element: fire';
