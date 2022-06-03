@@ -85,7 +85,7 @@ Horoscope.prototype.generatedHoroscope = function (day, month) {
   this.image = `img/${this.horoscope}.jpg`;
 
   if(this.horoscope === 'sagitarius') {
-    this.description = '(November 22 - December 21) Brazen spirit, dynamic blend of passion, curiosity, intensity, and adaptability, desire for change, Fueled by wanderlust, perpetual quest for knowledge, bluntness, and their "brutal honesty". Optimistic and open minded. Nearly 1 in 5 child stars are Sagitarius.';
+    this.description = '(November 22 - December 21) Brazen spirit, dynamic blend of passion, curiosity, intensity, and adaptability, desire for change, Fueled by wanderlust, perpetual quest for knowledge, bluntness, and their "brutal honesty". Nearly 1 in 5 child stars are Sagitarius.';
 
   } else if(this.horoscope === 'capricorn') {
     this.description = '(December 22 - January 19) This sign is often misunderstood, and brutally honest. They don\'t jump on bandwagons and are independent. They tend to carry heavy burdons because they are so willing to support others through their difficulties. Often the rock in their relationships, which can tear them down.';
